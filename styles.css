@@ -1,0 +1,29 @@
+#title {
+  margin: 0;
+  margin-left: 1rem;
+  flex: 1;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: tomato;
+  padding-top: 1rem;
+}
+nav > div {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  padding: 0.5rem;
+  margin-right: 10rem;
+  color: white;
+}
+nav a.selected {
+  border: solid 1px black;
+  border-radius: 1rem 1rem 0 0;
+  border-bottom-width: 0;
+  background-color: white;
+  color: tomato;
+  font-weight: bold;
+}
